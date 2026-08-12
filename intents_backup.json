@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! I am your Student Support Assistant. How can I help?"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How can I check my attendance?",
+        "Where can I see my attendance?",
+        "What is my attendance?",
+        "Tell me about attendance",
+        "How much attendance is required?"
+      ],
+      "responses": [
+        "You can check your attendance through the student portal. Please contact your department for the minimum attendance requirement."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When are the exams?",
+        "Where can I find the exam schedule?",
+        "Tell me about exams",
+        "When is my exam?",
+        "How can I check the exam timetable?"
+      ],
+      "responses": [
+        "You can find the latest examination schedule on the academic section or student portal."
+      ]
+    },
+    {
+      "tag": "assignments",
+      "patterns": [
+        "When are assignments due?",
+        "How do I submit an assignment?",
+        "Where can I submit my assignment?",
+        "Tell me about assignments",
+        "What is the assignment deadline?"
+      ],
+      "responses": [
+        "Assignment deadlines and submission instructions are usually provided by the respective faculty or through the student portal."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How can I pay my fees?",
+        "What is the fee structure?",
+        "When is the fee deadline?",
+        "Tell me about fees",
+        "Where can I check my fees?"
+      ],
+      "responses": [
+        "You can check the fee details and payment deadline through the official student portal or accounts department."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "Tell me about courses",
+        "Which courses can I choose?",
+        "What programs are offered?",
+        "Tell me about available programs"
+      ],
+      "responses": [
+        "You can check the available courses and programs on your institution's academic website or contact the academic department."
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "Where can I find my timetable?",
+        "Show me the class timetable",
+        "When is my class?",
+        "Tell me about class timings",
+        "What is today's timetable?"
+      ],
+      "responses": [
+        "You can check your latest class timetable through the student portal or department notice board."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Where is the library?",
+        "What are the library timings?",
+        "How can I use the library?",
+        "Tell me about the library",
+        "Can students borrow books?"
+      ],
+      "responses": [
+        "The library provides access to academic books and resources. Please check your institution's library portal for timings and borrowing rules."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "How can I apply for a scholarship?",
+        "What scholarships are available?",
+        "Tell me about scholarships",
+        "Am I eligible for a scholarship?",
+        "Where can I find scholarship information?"
+      ],
+      "responses": [
+        "You can check scholarship eligibility and application details through the official scholarship portal or student welfare department."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "When will results be announced?",
+        "Where can I check my results?",
+        "How can I see my result?",
+        "Tell me about results",
+        "When are semester results coming?"
+      ],
+      "responses": [
+        "You can check your examination results through the official student portal when they are released."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available?",
+        "Tell me about college facilities",
+        "What facilities does the college provide?",
+        "Are there sports facilities?",
+        "What student facilities are available?"
+      ],
+      "responses": [
+        "Institutions commonly provide facilities such as libraries, laboratories, sports areas, cafeterias and student support services."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "Who should I contact for help?",
+        "Where can I get student support?",
+        "I need help",
+        "How do I contact the department?"
+      ],
+      "responses": [
+        "For specific assistance, please contact your department office or the appropriate student support service."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks",
+        "Thank you"
+      ],
+      "responses": [
+        "You're welcome! Have a great day!",
+        "Goodbye! Feel free to ask whenever you need help."
+      ]
+    }
+  ]
+}

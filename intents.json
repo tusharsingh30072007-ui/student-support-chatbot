@@ -1,0 +1,266 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! I am your Student Support Assistant. How can I help?"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How can I check my attendance?",
+        "Where can I see my attendance?",
+        "What is my attendance?",
+        "How much attendance is required?",
+        "Tell me about attendance"
+      ],
+      "responses": [
+        "You can check your attendance through the student portal. Please contact your department for the minimum attendance requirement."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When are the exams?",
+        "Where can I find the exam schedule?",
+        "When is my exam?",
+        "How can I check the exam timetable?",
+        "Tell me about exams"
+      ],
+      "responses": [
+        "You can find the latest examination schedule through the official student portal or examination department."
+      ]
+    },
+    {
+      "tag": "assignments",
+      "patterns": [
+        "When are assignments due?",
+        "How do I submit an assignment?",
+        "Where can I submit my assignment?",
+        "What is the assignment deadline?",
+        "Tell me about assignments"
+      ],
+      "responses": [
+        "Assignment deadlines and submission instructions are generally provided by the respective faculty or through the student portal."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How can I pay my fees?",
+        "What is the fee structure?",
+        "When is the fee deadline?",
+        "Where can I check my fees?",
+        "Tell me about fees"
+      ],
+      "responses": [
+        "You can check fee details and payment deadlines through the official student portal or accounts department."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "Which courses can I choose?",
+        "What programs are offered?",
+        "Tell me about courses",
+        "What programs does the college offer?"
+      ],
+      "responses": [
+        "You can check available courses and programs through your institution's official academic website."
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "Where can I find my timetable?",
+        "Show me the class timetable",
+        "When is my class?",
+        "What are the class timings?",
+        "What is today's timetable?"
+      ],
+      "responses": [
+        "You can check your latest class timetable through the student portal or department notice board."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Where is the library?",
+        "What are the library timings?",
+        "How can I use the library?",
+        "Can students borrow books?",
+        "Tell me about the library"
+      ],
+      "responses": [
+        "The library provides academic books and learning resources. Please check your institution's library portal for timings and borrowing rules."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "How can I apply for a scholarship?",
+        "What scholarships are available?",
+        "Am I eligible for a scholarship?",
+        "Where can I find scholarship information?",
+        "Tell me about scholarships"
+      ],
+      "responses": [
+        "You can check scholarship eligibility and application details through the official scholarship portal or student welfare department."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "When will results be announced?",
+        "Where can I check my results?",
+        "How can I see my result?",
+        "When are semester results coming?",
+        "Tell me about results"
+      ],
+      "responses": [
+        "You can check your examination results through the official student portal when they are released."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available?",
+        "Tell me about college facilities",
+        "What facilities does the college provide?",
+        "Are there sports facilities?",
+        "What student facilities are available?"
+      ],
+      "responses": [
+        "Student facilities may include libraries, laboratories, sports areas, cafeterias and student support services. Check your institution's official website for details."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "Who should I contact for help?",
+        "Where can I get student support?",
+        "I need help",
+        "How do I contact the department?"
+      ],
+      "responses": [
+        "For specific assistance, please contact your department office or the appropriate student support service."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Is hostel available?",
+        "How can I apply for hostel?",
+        "Tell me about hostel facilities",
+        "What are the hostel facilities?",
+        "How do I get a hostel room?"
+      ],
+      "responses": [
+        "For hostel availability, admission and room allocation details, please contact the hostel administration."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "How does placement work?",
+        "Tell me about placements",
+        "What companies visit the college?",
+        "How can I prepare for placement?",
+        "Where can I get placement information?"
+      ],
+      "responses": [
+        "For placement opportunities, eligibility and upcoming drives, please check the placement cell or official student placement portal."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "How can I find an internship?",
+        "Does the college provide internships?",
+        "Tell me about internships",
+        "Where can I find internship opportunities?",
+        "How do I apply for an internship?"
+      ],
+      "responses": [
+        "You can explore internship opportunities through the placement cell, career portal and verified company websites."
+      ]
+    },
+    {
+      "tag": "id_card",
+      "patterns": [
+        "How can I get my ID card?",
+        "I lost my ID card",
+        "What should I do if I lose my ID card?",
+        "Where can I get a student ID card?",
+        "Tell me about ID cards"
+      ],
+      "responses": [
+        "For a new or replacement student ID card, please contact the administration or student affairs office."
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "Is college transport available?",
+        "Tell me about bus facilities",
+        "What are the transport facilities?",
+        "How can I apply for college transport?",
+        "Where can I find bus information?"
+      ],
+      "responses": [
+        "For routes, timings and transport registration, please contact the transport department."
+      ]
+    },
+    {
+      "tag": "clubs_events",
+      "patterns": [
+        "What clubs are available?",
+        "How can I join a college club?",
+        "Tell me about college events",
+        "What events are happening?",
+        "How can I participate in events?"
+      ],
+      "responses": [
+        "You can find information about student clubs, events and participation opportunities through the student activity or cultural committee."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "How do I apply for admission?",
+        "What are the admission requirements?",
+        "Tell me about admission"
+      ],
+      "responses": [
+        "For admission requirements, application dates and procedures, please visit the institution's official admission portal or contact the admissions office."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks",
+        "Thank you"
+      ],
+      "responses": [
+        "You're welcome! Have a great day!",
+        "Goodbye! Feel free to ask whenever you need help."
+      ]
+    }
+  ]
+}
