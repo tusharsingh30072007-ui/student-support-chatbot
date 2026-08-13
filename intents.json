@@ -60,7 +60,17 @@
         "What is the fee structure?",
         "When is the fee deadline?",
         "Where can I check my fees?",
-        "Tell me about fees"
+        "Tell me about fees",
+        "How can I check my fees?",
+        "How can I pay my fees?",
+        "Where can I check my fee details?",
+        "How do I check my fees?",
+        "Where can I see my fee details?",
+        "What are my fee details?",
+        "How can I check my fee status?",
+        "Where can I pay my college fees?",
+        "When is the fee payment deadline?",
+        "Tell me about my fees"
       ],
       "responses": [
         "You can check fee details and payment deadlines through the official student portal or accounts department."
@@ -83,10 +93,15 @@
       "tag": "timetable",
       "patterns": [
         "Where can I find my timetable?",
+        "Where can I check my timetable?",
+        "How can I find my timetable?",
+        "How can I check my timetable?",
+        "Where is my class timetable?",
+        "Where can I see my class schedule?",
+        "How do I check my class schedule?",
+        "Tell me my timetable",
         "Show me the class timetable",
-        "When is my class?",
-        "What are the class timings?",
-        "What is today's timetable?"
+        "Where can I find my class schedule?"
       ],
       "responses": [
         "You can check your latest class timetable through the student portal or department notice board."
