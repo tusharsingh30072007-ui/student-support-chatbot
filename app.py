@@ -61,7 +61,7 @@ def get_response(user_input):
         )
 
     # Additional confidence check
-    if max_probability < 0.15:
+    if max_probability < 0.10:
         return (
             "Sorry, I couldn't understand your question. "
             "Please ask about student services such as attendance, "
