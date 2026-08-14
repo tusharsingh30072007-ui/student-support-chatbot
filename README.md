@@ -16,7 +16,6 @@ An AI-powered chatbot designed to help students with common academic and campus-
 
 - Python
 - Scikit-learn
-- Pandas
 - Streamlit
 - TF-IDF
 - Logistic Regression
@@ -51,4 +50,8 @@ The chatbot can handle queries related to:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/tusharsingh30072007-ui/student-support-chatbot.git
+cd student-support-chatbot
+pip install -r requirements.txt
+streamlit run app.py
+```
