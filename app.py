@@ -76,11 +76,7 @@ def get_response(user_input):
 
     return "Sorry, I couldn't understand your question."
 
-    for intent in data["intents"]:
-        if intent["tag"] == predicted_intent:
-            return random.choice(intent["responses"])
-
-    return "Sorry, I couldn't understand your question."
+    
 
 # -----------------------------
 # Page configuration
@@ -96,6 +92,9 @@ st.set_page_config(
 # -----------------------------
 # Custom CSS
 # -----------------------------
+# -----------------------------
+# Custom CSS
+# -----------------------------
 
 st.markdown("""
 <style>
@@ -105,6 +104,7 @@ st.markdown("""
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 5px;
+    color: #0F766E;
 }
 
 .subtitle {
@@ -115,12 +115,12 @@ st.markdown("""
 }
 
 .service-box {
-    padding: 12px;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    background-color: var(--secondary-background-color);
+    padding: 14px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background-color: rgba(15, 118, 110, 0.08);
     color: var(--text-color);
-    border: 1px solid rgba(128, 128, 128, 0.25);
+    border: 1px solid #0F766E;
 }
 
 .footer {
@@ -131,10 +131,6 @@ st.markdown("""
     opacity: 0.7;
 }
 
-[data-testid="stAlert"] {
-    color: var(--text-color);
-}
-
 [data-testid="stSidebar"] {
     color: var(--text-color);
 }
@@ -142,12 +138,29 @@ st.markdown("""
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
 [data-testid="stSidebar"] h3 {
+    color: #0F766E;
+}
+
+[data-testid="stSidebar"] .stButton > button {
+    border-radius: 10px;
+    border: 1px solid #0F766E;
+    font-weight: 600;
+}
+
+.stButton > button {
+    border-radius: 10px;
+}
+
+[data-testid="stAlert"] {
     color: var(--text-color);
+}
+
+[data-testid="stChatInput"] {
+    border-radius: 12px;
 }
 
 </style>
 """, unsafe_allow_html=True)
-
 
 # -----------------------------
 # Initialize chat history
