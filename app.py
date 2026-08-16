@@ -22,6 +22,16 @@ with open("vectorizer.pkl", "rb") as file:
 # -----------------------------
 
 def get_response(user_input):
+
+    # Handle greetings directly
+    greetings = ["hi", "hello", "hey", "good morning", "good evening"]
+
+    if user_input.lower().strip() in greetings:
+        return random.choice([
+            "Hello! How can I help you today?",
+            "Hi! I am your Student Support Assistant. How can I help?"
+        ])
+
     # Convert user question into TF-IDF vector
     user_input_vector = vectorizer.transform([user_input])
 
@@ -48,8 +58,14 @@ def get_response(user_input):
         training_vectors
     )[0]
 
-    max_similarity_index = similarities.argmax()
-    max_similarity = similarities[max_similarity_index]
+    # Find similarity only with the predicted intent
+    predicted_intent_similarities = [
+        similarities[i]
+        for i in range(len(training_tags))
+        if training_tags[i] == predicted_intent
+    ]
+
+    max_similarity = max(predicted_intent_similarities)
 
     # Check whether the question is relevant enough
     if max_similarity < 0.15:
@@ -75,9 +91,6 @@ def get_response(user_input):
             return random.choice(intent["responses"])
 
     return "Sorry, I couldn't understand your question."
-
-    
-
 # -----------------------------
 # Page configuration
 # -----------------------------
